@@ -1,0 +1,19 @@
+{
+  "name": "vue-init",
+  "version": "1.0.0",
+  "description": "yhy",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "yhy",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.39.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "keywords": []
+}
