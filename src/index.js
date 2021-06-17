@@ -11,7 +11,7 @@ function component() {
 
   // element.appendChild(myIcon);
   // return element;
-
+  console.log(process.env.NODE_ENV);
   const element = document.createElement('div');
   const btn = document.createElement('button');
 
