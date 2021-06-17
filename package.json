@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "start": "webpack serve --open",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0",
     "server": "node server.js"
   },
   "author": "yhy",
@@ -16,6 +17,7 @@
   "devDependencies": {
     "css-loader": "^5.2.6",
     "express": "^4.17.1",
+    "ghooks": "^2.0.4",
     "html-webpack-plugin": "^5.3.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.39.0",

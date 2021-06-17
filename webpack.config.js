@@ -18,6 +18,26 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         clean: true,
     },
+    "config": {
+        "ghooks": {
+            "commit-msg": "validate-commit-msg"
+        },
+        "validate-commit-msg": {
+            "types": ["feat", "fix", "docs", "style", "refactor", "perf", "test", "build", "ci", "chore", "revert"],
+            "scope": {
+                "required": false,
+                "allowed": ["*"],
+                "validate": false,
+                "multiple": false
+            },
+            "warnOnFail": false,
+            "maxSubjectLength": 100,
+            "subjectPattern": ".+",
+            "subjectPatternErrorMsg": "subject does not match subject pattern!",
+            "helpMessage": "",
+            "autoFix": false
+        }
+    },
     module: {
         rules: [
             {
