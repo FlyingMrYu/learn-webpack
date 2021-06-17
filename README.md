@@ -8,7 +8,7 @@ npm install
 
 ## 内容
 
-- 起步
+- webpack 不同环境的config
 
 ## git
 
